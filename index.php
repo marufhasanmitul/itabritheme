@@ -1,28 +1,13 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-<!-- Wordpress Theme Development Tutorial By- Abdul Kader Hawlader -->
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Our Wordpress Site | ITBari.com</title>
-	<link rel="stylesheet" href="style.css" />
-</head>
-<body>
-	<div class="container">
-		<header class="main-header">
-			<h1><a href="#">Our Wordpress Site</a></h1>
-			<h3>Bangla Video Tutorial by IT Bari Tutorials</h3>
-		<nav class="main-menu">
-			<div class="menu">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Disclaimer</a></li>
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">Contact Us</a></li>
-				</ul>
-			</div>
-		</nav>			
-		</header>
+<?php 
+//Heading part call
+get_header() ;
+
+    echo "<pre>";
+    print_r( );
+    echo "</pre>";
+
+
+?>
 		<div class="content_wrapper">
 			<div class="left_content">
 				<h2>This is content heading</h2>
@@ -41,16 +26,5 @@
 			</div>
 			<br class="clear" />
 		</div>
-		<footer class="site-footer clearfix">
-			<p>All Rights Reserved, <a href="http://itbari.com">IT-Bari Tutorials</a> &copy; 2016</p>
-			<nav id="footer_nav">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
-		</footer>
-	</div>
-</body>
-</html>
+
+<?php get_footer();?>
