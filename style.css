@@ -138,6 +138,30 @@ header.main-header h3{
 	color:#2c7092;
 	text-decoration:none;
 }
-/*
-	Tutorial By- http://ITBari.com, All Rights Reserved
-*/
+
+
+.post-meta {
+    border: 1px solid #5c3f3f;
+    padding: 10px;
+}
+
+.feature-image img.wp-post-image {
+    width: 611px;
+    height: 320px;
+    padding: 5px;
+    border: 1px solid #d5cdcd;
+}
+
+.sidebarwrap h2 {
+    color: #bf5050;
+}
+
+.sidebarwrap ul li {
+    padding: 5px;
+}
+
+.sidebarwrap ul li a {
+    text-decoration: none;
+}
+
+

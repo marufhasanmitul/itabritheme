@@ -15,12 +15,12 @@
 			<h3><?php bloginfo( 'description' );?></h3>
 		<nav class="main-menu">
 			<div class="menu">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Disclaimer</a></li>
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">Contact Us</a></li>
-				</ul>
+				<?php
+				$args =array(
+					'theme_location' => 'primary'
+				);
+				
+				wp_nav_menu($args); ?>
 			</div>
 		</nav>			
 		</header>

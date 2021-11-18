@@ -1,11 +1,12 @@
 <footer class="site-footer clearfix">
 			<p>All Rights Reserved, <a href="http://itbari.com">IT-Bari Tutorials</a> &copy; 2016</p>
 			<nav id="footer_nav">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
+			<?php
+				$args =array(
+					'theme_location' => 'footermenu'
+				);
+				
+				wp_nav_menu($args); ?>
 			</nav>
 		</footer>
 	</div>
