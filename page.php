@@ -19,7 +19,7 @@ get_header() ;
 									Posted By:<?php the_author_posts_link();?> | Posted On :<?php the_time('M d, Y');?> | Posted In <?php the_category(' , ');?> 
 
 								</div>
-								<p><?php  the_content();?></p>
+								<p><?php the_content();?></p>
 							</article>
 						<?php endwhile;
 					else:
@@ -33,9 +33,6 @@ get_header() ;
 			<?php get_sidebar( ); ?>
 			<br class="clear" />
 		</div>
-
-<!--Before footer widhget-->
-<?php get_template_part('befor_widget'); ?>
 
 
 

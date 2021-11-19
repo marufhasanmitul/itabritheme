@@ -28,5 +28,35 @@
             'before_title'  => '<h2>',
             'after_title'   => '</h2>'
         ) );
+        register_sidebar( array(
+            'name'          => __( 'Footer Top Left'),
+            'id'            => 'sidebar-2',
+            'before_widget' => '<div class="widthwrip clearfix"> ',
+            'after_widget'  => ' </div>',
+            'before_title'  => '<h2 class="red">',
+            'after_title'   => '</h2>'
+        ) );
+        register_sidebar( array(
+            'name'          => __( 'Footer Top Middle '),
+            'id'            => 'sidebar-3',
+            'before_widget' => '<div class="widthwrip clearfix"> ',
+            'after_widget'  => ' </div>',
+            'before_title'  => '<h2 class="green">',
+            'after_title'   => '</h2>'
+        ) );
+        register_sidebar( array(
+            'name'          => __( 'Footer Top Right'),
+            'id'            => 'sidebar-4',
+            'before_widget' => '<div class="widthwrip clearfix">',
+            'after_widget'  => ' </div>',
+            'before_title'  => '<h2 class="yellow">',
+            'after_title'   => '</h2>'
+        ) );
     }
     add_action( 'widgets_init', 'our_widgets_init' );
+
+
+
+
+
+// Excerpt Function

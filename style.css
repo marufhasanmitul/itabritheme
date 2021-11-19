@@ -164,4 +164,34 @@ header.main-header h3{
     text-decoration: none;
 }
 
-
+.widthwrip {
+    float: left;
+    width: 28%;
+    border-right: 1px solid black;
+    padding-left: 10px;
+}
+.widthwrip:last-child{
+	border-right: none;
+}
+.widthwrip .red{
+	color:red;
+}
+.widthwrip .green{
+	color:green;
+}
+.widthwrip .yellow{
+	color:yellow;
+}
+.our_content {
+    text-align: center;
+    padding: 10px;
+}
+.header-wrap {
+    background: #efe0e0;
+    padding: 10px;
+    color: #3e3030;
+}
+.about-part {
+    background: #d7a6a6;
+    padding: 10px;
+}

@@ -12,14 +12,12 @@ get_header() ;
 						while( have_posts() ): the_post(); ?>
 							<article> 
 								<h2><a href="<?php the_permalink(); ?>"><?php the_title();?></a> </h2>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical </p>
 								<div class="feature-image"> 
 									<?php the_post_thumbnail();?>
 								</div>
-								<div class="post-meta"> 
-									Posted By:<?php the_author_posts_link();?> | Posted On :<?php the_time('M d, Y');?> | Posted In <?php the_category(' , ');?> 
-
-								</div>
-								<p><?php  the_content();?></p>
+								
+								<p><?php the_content();?></p>
 							</article>
 						<?php endwhile;
 					else:
@@ -33,9 +31,6 @@ get_header() ;
 			<?php get_sidebar( ); ?>
 			<br class="clear" />
 		</div>
-
-<!--Before footer widhget-->
-<?php get_template_part('befor_widget'); ?>
 
 
 
