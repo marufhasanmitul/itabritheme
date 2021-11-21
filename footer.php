@@ -1,5 +1,5 @@
 <footer class="site-footer clearfix">
-			<p>All Rights Reserved, <a href="http://itbari.com">IT-Bari Tutorials</a> &copy; 2016</p>
+			<p>All Rights Reserved, <a href="#">Maruf Hasan mitul</a> &copy;2006 - <?php echo date('Y'); ?></p>
 			<nav id="footer_nav">
 			<?php
 				$args =array(

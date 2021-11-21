@@ -20,6 +20,8 @@ get_header() ;
 
 								</div>
 								<p><?php the_content();?></p>
+
+								<?php comments_template();?>
 							</article>
 						<?php endwhile;
 					else:

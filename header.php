@@ -13,6 +13,11 @@
 		<header class="main-header">
 			<h1><a href="<?php echo home_url();?>"><?php bloginfo( 'name' )?></a></h1>
 			<h3><?php bloginfo( 'description' );?></h3>
+			<div class="cus-searchform"> 
+				<?php get_search_form();?>
+			</div>
+			
+
 		<nav class="main-menu">
 			<div class="menu">
 				<?php
